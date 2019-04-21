@@ -1,4 +1,6 @@
 FROM debian:jessie
+FROM python:3
+
 ENV  DEBIAN_FRONTEND noninteractive
 
 RUN  apt-get -q update \
